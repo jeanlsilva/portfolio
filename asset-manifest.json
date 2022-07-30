@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4503ff7f.css",
+    "main.js": "/portfolio/static/js/main.d21dc448.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/orbee.gif": "/portfolio/static/media/orbee.0bc90eab41eb10f6ef2a.gif",
+    "static/media/upfi.gif": "/portfolio/static/media/upfi.47ecc9d75da390b131cd.gif",
+    "static/media/binary.gif": "/portfolio/static/media/binary.7085630b7bd83aba1d5f.gif",
+    "static/media/predictnow.gif": "/portfolio/static/media/predictnow.53f9ab5b37dc165613bf.gif",
+    "static/media/nlw-heat.gif": "/portfolio/static/media/nlw-heat.36fef91604acdf106d45.gif",
+    "static/media/contact-background.jpg": "/portfolio/static/media/contact-background.32f934da09b005fc57ec.jpg",
+    "static/media/coding.gif": "/portfolio/static/media/coding.05f035b3a27b38553a6a.gif",
+    "static/media/about-image.jpg": "/portfolio/static/media/about-image.3037457512b030634455.jpg",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.c7da596fe0536bd867c0.jpg",
+    "static/media/background-image.jpg": "/portfolio/static/media/background-image.f36098cf480afc9573d4.jpg",
+    "static/media/react-logo.png": "/portfolio/static/media/react-logo.8a6fc0a24a800d1e0f4a.png",
+    "static/media/typeorm-logo.png": "/portfolio/static/media/typeorm-logo.a7b7003edf362b81be26.png",
+    "static/media/material-ui-logo.png": "/portfolio/static/media/material-ui-logo.b2aa0f9368917bc302a1.png",
+    "static/media/nodejs-logo.png": "/portfolio/static/media/nodejs-logo.bc4b43cd5f20ba305059.png",
+    "static/media/nestjs-logo.svg": "/portfolio/static/media/nestjs-logo.6b3f50033b95b532742739a3f093d056.svg",
+    "static/media/postgresql-logo.png": "/portfolio/static/media/postgresql-logo.e9adbe9a8c89a8e2dc09.png",
+    "static/media/nextjs-logo.png": "/portfolio/static/media/nextjs-logo.6db19b31cc0a2f63cff4.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/hamburger-icon.svg": "/portfolio/static/media/hamburger-icon.383ea0678c71d81b545035bad330ec53.svg",
+    "main.4503ff7f.css.map": "/portfolio/static/css/main.4503ff7f.css.map",
+    "main.d21dc448.js.map": "/portfolio/static/js/main.d21dc448.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4503ff7f.css",
+    "static/js/main.d21dc448.js"
+  ]
+}
