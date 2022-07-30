@@ -10,9 +10,9 @@ function App() {
   return (
     <BrowserRouter >
       <Routes>
-        <Route path="/wddm-121-css-framework" element={<Home />} />
-        <Route path="/wddm-121-css-framework/about" element={<About />} />
-        <Route path="/wddm-121-css-framework/contact" element={<ContactUs />} />
+        <Route path="/portfolio" element={<Home />} />
+        <Route path="/portfolio/about" element={<About />} />
+        <Route path="/portfolio/contact" element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
   );
