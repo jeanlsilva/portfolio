@@ -2,6 +2,8 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import linkedinImg from "../assets/images/linkedin.png";
+import githubImg from "../assets/images/github.png";
 
 const schema = yup.object({
     name: yup.string().required(),
@@ -26,6 +28,7 @@ function ContactForm() {
 
     return (
         <div class="relative z-2">
+            <h2 class="text-center text-3xl font-bold text-white mt-8">Leave me a message if you have any questions</h2>
             <form class="flex flex-col justify-center h-[80vh]" onSubmit={handleSubmit(onSubmit)}>
                 <div class="flex flex-col lg:flex-row lg:space-x-10">
                     <div class="flex flex-col flex-1 hover:text-yellow-500  mt-5 lg:mt-0">
@@ -52,6 +55,17 @@ function ContactForm() {
                     <button type="submit" class="px-8 py-4 bg-yellow-500 rounded-lg hover:bg-black hover:text-yellow-500 transition-all ease-in-out duration-500">Send</button>
                 </div>
             </form>
+            <div class="mb-32">
+                <h1 class="text-center text-3xl font-bold text-white my-10">Follow me on my social media</h1>
+                <div class="flex gap-20 justify-center">
+                    <a href="https://linkedin.com/in/jeanlucasdasilva">
+                        <img src={linkedinImg} alt="linkedin" height="80" width="80" class="hover:scale-125 transition-all ease-int-out duration-500" />
+                    </a>
+                    <a href="https://github.com/jeansilva">
+                        <img src={githubImg} alt="github" height="80" width="80" class="hover:scale-125 transition-all ease-int-out duration-500" />
+                    </a>
+                </div>
+            </div>
         </div>
     );
 }

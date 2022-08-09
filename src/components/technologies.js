@@ -11,29 +11,29 @@ function Technologies() {
     return (
         <section id="2" class="lg:h-screen">
             <h1 class="text-5xl font-bold text-white my-24 lg:my-10">These are the technologies I rock</h1>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div class="flex flex-col items-center justify-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 bg-white/20 rounded-lg p-5">
+                <div class="flex flex-col items-center justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-500">
                     <img src={jsLogo} alt="javascript" class="w-48" />
                 </div>
-                <div class="flex flex-col items-center justify-center">
+                <div class="flex flex-col items-center justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-500">
                     <img src={reactLogo} alt="react" class="w-48" />
                 </div>
-                <div class="flex flex-col items-center justify-center">
+                <div class="flex flex-col items-center justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-500">
                     <img src={nextJSLogo} alt="nextjs" class="w-64" />
                 </div>
-                <div class="flex flex-col items-center justify-center">
+                <div class="flex flex-col items-center justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-500">
                     <img src={materialUILogo} alt="mui" class="w-64" />
                 </div>
-                <div class="flex flex-col items-center justify-center">
+                <div class="flex flex-col items-center justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-500">
                     <img src={nodeJSLogo} alt="node" class="w-64" />
                 </div>
-                <div class="flex flex-col items-center justify-center">
+                <div class="flex flex-col items-center justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-500">
                     <img src={nestJSLogo} alt="next" class="w-64" />
                 </div>
-                <div class="flex flex-col items-center justify-center">
+                <div class="flex flex-col items-center justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-500">
                     <img src={postgresLogo} alt="postgres" class="w-64" />
                 </div>
-                <div class="flex flex-col items-center justify-center">
+                <div class="flex flex-col items-center justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-500">
                     <img src={typeORMLogo} alt="typeorm" class="w-64" />
                 </div>
             </div>
